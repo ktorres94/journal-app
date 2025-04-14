@@ -26,3 +26,35 @@ The app will include the following basic screens:
 3. Screen to read or delete an entry
 
 Wireframes or sketches will be added later as development progresses.
+
+## Version Changelog
+v1.0 – Initial Outline Created
+- Planned app features and structure documented.
+
+v1.1 – Android Studio Project Created
+- Set up MainActivity with basic layout.
+
+v1.2 – Uploaded Project to GitHub
+- Uploaded source code.
+- Removed unnecessary build and system files for smaller upload size.
+
+v1.3 – Preparing Database Features
+- Planning to add SQLite database to store journal entries locally.
+
+v1.4 – Planned UI Improvements
+- Will improve layout styling for readability.
+
+- Plan to add input validation to prevent saving blank entries.
+
+## Planned Future Features
+- Add SQLite database to save journal entries locally.
+
+- Create screen to view saved entries.
+
+- Add ability to edit or delete saved entries.
+
+- Improve layout styling (padding, margins, text sizes).
+
+- Explore adding a dark mode toggle.
+
+- Add input validation so blank entries cannot be saved.
