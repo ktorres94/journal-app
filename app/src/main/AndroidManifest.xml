@@ -12,10 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JournalApp"
         tools:targetApi="31">
-
-        <!-- Register NewEntryActivity -->
         <activity android:name=".NewEntryActivity" />
-
+        <activity
+            android:name=".ViewEntriesActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.JournalApp" />
+        <activity android:name=".EditEntryActivity" />
+        <!-- Register NewEntryActivity -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -26,7 +30,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

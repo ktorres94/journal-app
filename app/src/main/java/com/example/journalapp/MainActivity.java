@@ -12,9 +12,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button newEntryButton = findViewById(R.id.btnNewEntry);
-        newEntryButton.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, NewEntryActivity.class);
-            startActivity(intent);
-        });
+        Button viewEntriesButton = findViewById(R.id.btnViewEntries);
+
+        if (newEntryButton != null) {
+            newEntryButton.setOnClickListener(v -> {
+                Intent intent = new Intent(MainActivity.this, NewEntryActivity.class);
+                startActivity(intent);
+            });
+        }
+
+        if (viewEntriesButton != null) {
+            viewEntriesButton.setOnClickListener(v -> {
+                Intent intent = new Intent(MainActivity.this, ViewEntriesActivity.class);
+                startActivity(intent);
+            });
+        }
     }
 }

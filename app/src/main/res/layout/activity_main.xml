@@ -17,6 +17,11 @@
         android:id="@+id/btnNewEntry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="+ New Entry"
-        android:layout_gravity="center_horizontal" />
+        android:text="New Entry" />
+
+    <Button
+        android:id="@+id/btnViewEntries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Entries" />
 </LinearLayout>
